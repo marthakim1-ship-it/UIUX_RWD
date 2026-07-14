@@ -47,7 +47,13 @@
     /* left 50% 는 화면 너비 중심으로 이동됨 */
     left: 50%; top: 50%;
     /* translateX(-50%) 는 width: 300px; 상자 크기 기준으로 이동됨 */
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+/* 실험코드 -> 실무코드x */
+body{height: 100vh;}
+body:hover .box1 {
+    transform: translate(-40%, -40%)
 }
 .box2 {
     position:absolute;
