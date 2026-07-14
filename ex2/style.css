@@ -1,0 +1,68 @@
+.line1 {
+    border-top: 1px solid #000;
+    position: relative;
+    transform: translateY(25px);
+}
+.width {
+    position: absolute;
+    /* transform: translate(X, Y); */
+    transform: translate(-50%, 100px);
+    left: 50%;
+}
+.h-ln1,.h-ln2,.h-ln3,.h-ln4 {
+    position: absolute;
+    border-right: 1px solid #000;
+    height: 50px;
+    top: 50%;
+     transform: translateY(-50%);
+}
+
+.h-ln1 {
+    left: 360px;
+}
+.h-ln2 {
+    left: 760px;
+}
+.h-ln3 {
+    left: 1080px;
+}
+.h-ln4 {
+    left: 1440px;
+}
+.h-ln::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.h-ln1::after {content: "360";}
+.h-ln2::after {content: "760";}
+.h-ln3::after {content: "1080";}
+.h-ln4::after {content: "1440";}
+
+.box1 {
+    width: 300px; height: 300px;
+    position: fixed;
+    background-color: #b6b6b6;
+    /* left 50% 는 화면 너비 중심으로 이동됨 */
+    left: 50%; top: 50%;
+    /* translateX(-50%) 는 width: 300px; 상자 크기 기준으로 이동됨 */
+    transform: translate(-50%, -50%)
+}
+.box2 {
+    position:absolute;
+    width: 61px; height: 20px;
+    background-color: green;
+    top: 26px; left: 1440px;
+    transform: translateX(-50%);
+}
+.box2:hover {
+    transform: translateX(0%);
+}
+
+@media screen and (max-width: 1080px) {
+    .box2 {
+        left: 1080px;
+    }
+    
+}
