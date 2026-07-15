@@ -1,0 +1,55 @@
+
+body {
+    height: 100vh;
+}
+body:hover .box1 {
+    transform: translate(-40%, -40%);
+}
+.box1 {
+    width: 300px; height: 300px;
+    position: fixed;
+    background-color: gray;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+.box2 {
+    position: absolute;
+    background-color: green;
+    width: 60px; height: 20px;
+    top: 25px; left: 360px;
+    transform: translateX(50%);
+}
+.box2:hover {
+    transform: translateX(0%);
+}
+.line1 {
+    border: 1px solid #000;
+    position: relative;
+    transform: translateY(25px);
+}
+.width {
+    position: absolute;
+    transform: translate(-50%, 100px);
+    left: 50%;
+
+}
+.h-ln1, .h-ln2, .h-ln3 {
+    position: absolute;
+    border-right: 1px solid #000;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.h-ln1 {
+    left: 50%;
+}
+.h-ln2 {
+    left: 360px;
+}
+.h-ln3 {
+    left: 1440px;
+}
+.h-ln1::after {content: "50%";}
+.h-ln2::after {content: "360";}
+.h-ln3::after {content: "1440";}
