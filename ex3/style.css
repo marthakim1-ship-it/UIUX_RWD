@@ -1,0 +1,34 @@
+/* Component = 반복적인 코드를 컴퍼넌트라고 부른다. 
+실제 유지보수할때 가장 많이 씀, 
+반복적인 형태를 컴퍼넌트화 시켜주세요 라고 시킬것이다. */
+.tr-3{transition: 0.3s;}
+.tr-5{transition: 0.5s;}
+.tr-7{transition: 0.7s;}
+
+.container {
+    width: 1440px;
+    margin-left: auto; margin-right: auto;
+}
+header {
+    height: 100px;
+    background-color: #333;
+}
+.s1-c3 {
+    background-color: #d1d0d0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.s1-c3-con {
+    display: flex; gap: 40px;
+}
+.c3-bx {
+    background-color: #333;
+    height: 500px;
+    flex-grow: 1; flex-basis: 0;
+}
+
+footer {
+    height: 500px;
+    background-color: #333;
+}
+
