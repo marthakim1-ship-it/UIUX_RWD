@@ -1,6 +1,21 @@
 /* 0 ~ 360 일때 동작 */
 /* (실무)360사이즈에서 가장 많이 디자인함 */
 /* (포토폴리오) 화면이 길어야 예뻐서 320*720 */
+
+/* 0 ~ 1080px */
+@media screen and (max-width:1080px) {
+    .s1-c3-con {
+        flex-direction: column;
+    }
+    .c3-bx {
+        width: inherit;
+        height: 300px;
+        flex: none;
+    }
+}
+
+
+
 @media screen and (max-width: 320px) {
     header {
         height: 80px;
