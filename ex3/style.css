@@ -6,6 +6,7 @@
 .tr-7{transition: 0.7s;}
 
 .container {
+    /* 오답: width: calc(100% - 40px); */
     max-width: 1440px;
     margin-left: auto; margin-right: auto;
 }
