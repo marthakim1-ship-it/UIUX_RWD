@@ -4,12 +4,13 @@
 /* 0 ~ 1080px */
 @media screen and (max-width:1080px) {
     .s1-c3-con {
-        flex-wrap: wrap;
+        flex-wrap: column;
     }
     .c3-bx {
         width: 100%;
         height: 300px;
-        flex: none;
+        flex-grow: 0;
+        flex-basis: auto;
     }
 }
 
