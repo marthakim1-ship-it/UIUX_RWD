@@ -1,11 +1,10 @@
 /* 0 ~ 360 일때 동작 */
 /* (실무)360사이즈에서 가장 많이 디자인함 */
 
-/* 0 ~ 1080px */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1920px) {
     .s1-c3-con {
-        /* 오답: flex-wrap: wrap;  */
         flex-direction: column;
+        padding-left: 80px; padding-right: 80px;
     }
     .c3-bx {
         width: 100%;
@@ -14,6 +13,21 @@
         flex-basis: auto;
     }
 }
+
+/* 0 ~ 1080px */
+@media screen and (max-width:1080px) {
+    .s1-c3-con {
+        flex-direction: column;
+        padding-left: 20px; padding-right: 20px;
+    }
+    .c3-bx {
+        width: 100%;
+        height: 300px;
+        flex-grow: 0;
+        flex-basis: auto;
+    }
+}
+
 
 
 /* (포토폴리오) 화면이 길어야 예뻐서 320*720 */
