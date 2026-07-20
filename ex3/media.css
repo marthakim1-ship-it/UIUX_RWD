@@ -1,43 +1,49 @@
-/* 0 ~ 360 일때 동작 */
+/* [1081부터 상자 레이아웃->가로] 1081~ */
+
+/* 320 ~ 1080 */
+@media screen and (max-width: 1080px) {
+    .s1-c3-con {
+        flex-direction: column;
+        
+    }
+}
+/* 1080 이하: 가로 3단 레이아웃 → 세로 3단 레이아웃 */
+@media screen and (max-width: 1080px) {
+    .s1-c3-con {
+        /* 1080까지 상자 레이아웃 -> 세로 */
+        flex-direction: column;
+        
+    }
+
+    .c3-bx {
+        width: 100%;
+        height: 300px;
+        flex-grow: 0;
+        flex-basis: auto;
+        /* flex-basis -> flex item 전용 너비 -> width */
+        /* flex-item 은 가로는 flex-basis에만 쓸수 있다. */
+        /* flex-grow row 상태일때는 가로 상태에서 동작, flex-grow 0는 세로에서 동작한다.  */
+
+    }
+}
+
 /* (실무)360사이즈에서 가장 많이 디자인함 */
-
-@media screen and (max-width:1920px) {
-    .s1-c3-con {
-        flex-direction: column;
-        padding-left: 80px; padding-right: 80px;
-    }
-    .c3-bx {
-        width: 100%;
-        height: 300px;
-        flex-grow: 0;
-        flex-basis: auto;
-    }
-}
-
-/* 0 ~ 1080px */
-@media screen and (max-width:1080px) {
-    .s1-c3-con {
-        flex-direction: column;
-        padding-left: 20px; padding-right: 20px;
-    }
-    .c3-bx {
-        width: 100%;
-        height: 300px;
-        flex-grow: 0;
-        flex-basis: auto;
-    }
-}
-
-
-
-/* (포토폴리오) 화면이 길어야 예뻐서 320*720 */
+/* (포트폴리오)화면이 길어야 예뻐서 320*720 */
+/* 0 ~ 320 */
 @media screen and (max-width: 320px) {
     header {
         height: 80px;
-        background-color: #b6b6b6;
+        background-color: #8d8d8d;
     }
+    .s1-c3-con {
+        /* 320까지 상자 레이아웃 -> 가로 */
+        flex-direction: row;
+        
+    }
+
+
     footer {
         height: 210px;
-        background-color: #b6b6b6;
+        background-color: #8d8d8d;
     }
 }
