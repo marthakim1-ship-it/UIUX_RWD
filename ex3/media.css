@@ -4,7 +4,8 @@
 /* 0 ~ 1080px */
 @media screen and (max-width:1080px) {
     .s1-c3-con {
-        flex-wrap: column;
+        /* 오답: flex-wrap: wrap;  */
+        flex-direction: column;
     }
     .c3-bx {
         width: 100%;
