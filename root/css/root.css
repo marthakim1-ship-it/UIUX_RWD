@@ -1,4 +1,12 @@
 :root {
+    /* 배경컬러 */
     --color-background-tertiary:#faf9f5;
-    --
+    /* 메인컬러 */
+    --color-ring-primary: #141413;
+    --color-text-info: #253e5f;
+    --color-border-info: #4682d5;
+
+    /* 보조컬러 */
+    --color-text-info: #d6e4f6;
+    --color-ring-secondary: #c2c0b6;
 }
