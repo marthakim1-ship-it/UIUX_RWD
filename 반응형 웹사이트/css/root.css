@@ -25,6 +25,7 @@
     --font-text-sz-rem: 1.1rem;
     --font-text-sz-rem: 1.2rem; */
 
+    /* 글자 두께 */
     --font-weight100:100;
     --font-weight200:200;
     --font-weight300:300;
@@ -35,6 +36,7 @@
     --font-weight800:800;
     --font-weight900:900;
 
+    /* 글자 색상 */
     --color-Wh: #fff;
     --color-def: #333;
 
