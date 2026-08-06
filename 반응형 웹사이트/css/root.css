@@ -76,7 +76,16 @@
 
   /* padding */
   --padding-XS: var(--num10) var(--num16);
+
+  /* 아이콘 */
+  --icon-FS-XS: var(--font-text-size20);
+  --icon-W-XS: var(--font-weight300);
+  --icon-FS-small: var(--font-text-size24);
+  --icon-W-small: var(--font-weight400);
 }
+
+
+
 /* ----전역---- */
 /* 전체 브라우저에 들어가는 기본 글자 색상 */
 .col-de-light {
@@ -120,3 +129,40 @@
 }
 
 /* ----지역 버튼---- */
+
+
+
+
+
+/* ------아이콘------*/
+/* ----전역 아이콘---- */
+.icon-FS-XS {
+  font-size: var(--icon-FS-XS);
+  font-weight: var(--icon-W-XS);
+}
+.icon-FS-small {
+  font-size: var(--icon-FS-small);
+  font-weight: var(--icon-W-small);
+}
+
+/* ----지역 아이콘---- */
+.circle-icon-XS {
+  font-size: var(--icon-FS-small);
+  font-weight: var(--icon-W-XS);
+}
+
+
+
+/* ------이벤트(활성화/비활성화)------ */
+/* ----header---- */
+.li{position: relative; 
+  /* 임의 코드 */
+  padding: 20px 0; display: inline-flex;
+}
+.li::after {
+  content: "";
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%; height: 2px;
+  background-color: var(--main);
+}
