@@ -18,8 +18,6 @@ header {
 .user-box {
     display: flex;
 }
-.menu1 {
-}
 .menu1 ul {
     display: flex; height: 100%;
     gap: var(--num40);
@@ -43,7 +41,8 @@ header {
     font-weight: var(--textW-large);
 }
 .user-menu-box {
-    align-self: center; display: flex;
+    align-self: center; 
+    display: flex;
 }
 .se-box {
     display: flex;
