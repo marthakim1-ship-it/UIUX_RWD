@@ -183,10 +183,6 @@
 /* ----지역 버튼---- */
 
 
-
-
-
-
 /* ------아이콘------*/
 /* ----전역 아이콘---- */
 .icon-FS-XS {
@@ -211,9 +207,6 @@
 .circle-icon-XS {
   font-size: var(--icon-FS-small);
   font-weight: var(--icon-W-XS);
-
-
-
 }
 
 
