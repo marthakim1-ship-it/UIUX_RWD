@@ -53,6 +53,13 @@
   --GW-M: 1100px; /* 1240 그리드 */
   --GW-L: 1620px;
 
+  /* 그리드 최소너비 */
+  /* --GWM-XXS: ; */
+  /* --GWM-XS: ; */
+  --GWM-S: 320px;  /* 1080 그리드 */
+  --GWM-M: ; /* 1240 그리드 */
+  /* --GWM-L: ; */
+
 }
 /* STEP 01 · 공통 기반 + 상단 안내 바 + 헤더 */
 :root {
@@ -112,8 +119,23 @@
   /* 그리드 */
   --G-center: var(--num0) var(--auto)
   --grid-1080: var(--GW-S);
+
+  /* 최소 범위 그리드 */
+  --gridM-1080: var(--GWM-M)
 }
 
+/* ------전역------ */
+/* ----전역 그리드---- */
+.con {
+  margin: var(--G-center);
+  padding-left: var(--padding-grid-large);
+  padding-right: var(--padding-grid-large);
+
+
+}
+
+/* ------지역------ */
+/* ----지역 그리드---- */
 
 
 /* ----전역---- */

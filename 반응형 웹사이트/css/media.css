@@ -1,6 +1,15 @@
+/* 1241 ~ n값 */
+.user-box-1240 {
+    display: none;
+}
 /* 0 ~ 1240 */
 @media screen and (max-width: 1240px) {
-    
+    .user-box {
+    display: none;
+}
+.user-box-1240 {
+    display: block;
+    }
 }
 
 
@@ -18,12 +27,13 @@
 
 @media screen and (max-width: 1080px) {
     header {
-        /* min-width: ; */
+        min-width: var(--gridM-1080);
+    }
+    header .con {
         max-width: var(--GW-S);
         padding-left: var(--padding-grid-medium);
         padding-right: var(--padding-grid-medium);
         background-color: yellow;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
 }

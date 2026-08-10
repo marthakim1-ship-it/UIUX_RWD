@@ -7,11 +7,11 @@ body{height: 30px;}
     align-items: center; gap: 8px;
 }
 header {
-    height: 12vh;
     border-bottom: 1px solid var(--main);
+}
+header .con {
+    height: 12vh;
     display: flex; justify-content: space-between;
-    padding-left: var(--padding-grid-large);
-    padding-right: var(--padding-grid-large);
 }
 .logo-box {
     align-self: center;
