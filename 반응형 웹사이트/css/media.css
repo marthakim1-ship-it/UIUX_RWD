@@ -1,0 +1,29 @@
+/* 0 ~ 1240 */
+@media screen and (max-width: 1240px) {
+    
+}
+
+
+/* 0 ~ 1080 */
+/* @media 에서는 css 변수를 사용할 수 없다, 아래와
+같은 방식으로 코드를 해결해야한다. */
+/* @media screen and (max-width: var(--grid-1080)) {
+    header {
+        padding-left: var(--padding-grid-medium);
+        padding-right: var(--padding-grid-medium);
+    }
+} */
+
+/* 올바른 방식 */
+
+@media screen and (max-width: 1080px) {
+    header {
+        /* min-width: ; */
+        max-width: var(--GW-S);
+        padding-left: var(--padding-grid-medium);
+        padding-right: var(--padding-grid-medium);
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

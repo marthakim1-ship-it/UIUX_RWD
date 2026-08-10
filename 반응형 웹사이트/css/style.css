@@ -10,6 +10,8 @@ header {
     height: 12vh;
     border-bottom: 1px solid var(--main);
     display: flex; justify-content: space-between;
+    padding-left: var(--padding-grid-large);
+    padding-right: var(--padding-grid-large);
 }
 .logo-box {
     align-self: center;
