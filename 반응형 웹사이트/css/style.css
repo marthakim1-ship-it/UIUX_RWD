@@ -41,7 +41,7 @@ header .con {
 .menu1 a {
     padding-top: var(--num8);
     padding-bottom: var(--num8);
-    font-weight: var(--textW-large);
+    font-weight: var(--textW-LARGE);
 }
 .user-menu-box {
     align-self: center; 

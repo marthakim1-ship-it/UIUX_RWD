@@ -18,8 +18,8 @@
 같은 방식으로 코드를 해결해야한다. */
 /* @media screen and (max-width: var(--grid-1080)) {
     header {
-        padding-left: var(--padding-grid-medium);
-        padding-right: var(--padding-grid-medium);
+        padding-left: var(--padding-grid-MEDIUM);
+        padding-right: var(--padding-grid-MEDIUM);
     }
 } */
 
@@ -31,8 +31,8 @@
     }
     header .con {
         max-width: var(--GW-S);
-        padding-left: var(--padding-grid-medium);
-        padding-right: var(--padding-grid-medium);
+        padding-left: var(--padding-grid-MEDIUM);
+        padding-right: var(--padding-grid-MEDIUM);
         background-color: yellow;
         
     }
