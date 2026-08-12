@@ -10,6 +10,8 @@
     --color-text-info2: #d6e4f6;
     --color-ring-secondary: #c2c0b6;
 
+    /* Typography */
+    /* 고정형 */
     --font-text-size10: 10px;
     --font-text-size12: 12px;
     --font-text-size14: 14px;
@@ -20,6 +22,16 @@
     --font-text-size24: 24px;
     --font-text-size26: 26px;
     --font-text-size40: 40px;
+
+    /* 적응형 */
+    --text-xs: 0.75rem;    /* 12px */
+    --text-sm: 0.875rem;   /* 14px */
+    --text-base: 1rem;     /* 16px */
+    --text-lg: 1.125rem;   /* 18px */
+    --text-xl: 1.25rem;    /* 20px */
+    --text-2xl: 1.5rem;    /* 24px */
+    --text-3xl: 1.875rem;  /* 30px */
+    --text-4xl: 2.25rem;   /* 36px */
 
     /* 반응형 단위 */
     /* --font-text-sz-rem: 1rem;

@@ -18,3 +18,7 @@
   font-weight: var(--textW-MEDIUM);
   color: var(--color-default-dark);
 }
+.SMALL-li-header  {
+  font-size: var(--text-base);
+  font-weight: var(--textW-LARGE);
+}

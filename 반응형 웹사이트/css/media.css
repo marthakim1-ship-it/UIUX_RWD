@@ -1,3 +1,11 @@
+/* 0 ~ 1380 */
+@media screen and (max-width: 1380px) {
+    .SMALL-li-header {
+        font-size: var(--text-sm);
+    }
+}
+
+
 /* 1241 ~ n값 */
 .user-box-1240 {
     display: none;
@@ -35,5 +43,24 @@
         padding-right: var(--padding-grid-MEDIUM);
         background-color: yellow;
         
+    }
+}
+.menu1-768 {
+    display: none;
+}
+/* 0 ~ 768 */
+@media screen and (max-width: 768px) {
+    header .con {
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    .menu1-768 {
+        display: flex;
+        border: 1px solid red;
+    }
+    .user-box-1240 {
+        display: none;
+        border: 1px solid red;
     }
 }
